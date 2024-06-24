@@ -1789,7 +1789,6 @@ ul {
 
 .main-menu-three__main-menu-content-box {
   position: relative;
-  display: block;
   margin-left: 180px;
   padding: 33px 0;
 }
@@ -10638,6 +10637,10 @@ body.boxed-wrapper {
     display: inline-block;
     padding: 43px 0;
   }
+
+  .main-menu-three__main-menu-content-box {
+    margin-left: 50px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -10725,6 +10728,10 @@ body.boxed-wrapper {
     display: none;
   }
 
+  .main-menu-three__main-menu-content-box {
+    margin-left: 50px;
+  }
+
   .main-menu-two__wrapper {
     padding: 0 20px 0;
   }
@@ -10743,7 +10750,7 @@ body.boxed-wrapper {
     padding: 43px 0;
   }
 
-  .main-menu-three__main-menu-content-box {
+  .main-menu-three__help-line {
     display: none;
   }
 
@@ -10783,8 +10790,8 @@ body.boxed-wrapper {
     padding: 0 20px 0;
   }
 
-  .main-menu-three__help-line {
-    display: none;
+  .main-menu-three__main-menu-content-box {
+    margin-left: 50px;
   }
 }
 
